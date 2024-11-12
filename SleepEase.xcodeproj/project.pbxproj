@@ -29,6 +29,23 @@
 		03EFA0C32CDE683C0090FBC5 /* SleepEaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepEaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		03A1D1AB2CE284E500F1237F /* Exceptions for "SleepEaseUITests" folder in "SleepEase" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"SleepEase 1.mlmodel",
+			);
+			target = 03EFA0A82CDE683B0090FBC5 /* SleepEase */;
+		};
+		03A1D1AC2CE284E500F1237F /* Exceptions for "SleepEaseUITests" folder in "SleepEaseUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"SleepEase 1.mlmodel",
+			);
+			target = 03EFA0C22CDE683C0090FBC5 /* SleepEaseUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		03EFA0AB2CDE683B0090FBC5 /* SleepEase */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -42,6 +59,10 @@
 		};
 		03EFA0C62CDE683C0090FBC5 /* SleepEaseUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				03A1D1AB2CE284E500F1237F /* Exceptions for "SleepEaseUITests" folder in "SleepEase" target */,
+				03A1D1AC2CE284E500F1237F /* Exceptions for "SleepEaseUITests" folder in "SleepEaseUITests" target */,
+			);
 			path = SleepEaseUITests;
 			sourceTree = "<group>";
 		};
